@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 2000px;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  width: 95%;
+  height: 80px;
+  margin: 0px auto;
+}
+header aside {
+  width: 30%;
+  display: inline-block;
+  height: 100%;
+}
+header aside div {
+  margin-top: 20px;
+}
+header aside div i {
+  font-size: 25px;
+  padding-right: 5px;
+  color: blue;
+}
+header aside div span {
+  font-size: 25px;
+  font-weight: 300;
+}
+header nav {
+  float: right;
+  height: 100%;
+}
+header nav ul {
+  margin-top: 25px;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  color: blue;
+}
+header nav ul .auth a {
+  margin-right: 5px;
+}
+main {
+  width: 100%;
+}
+main .buttonBanner {
+  width: 100%;
+  height: 738px;
+}
+main .buttonBanner aside {
+  display: inline-block;
+}
+main .buttonBanner .rigth {
+  width: 70%;
+  height: 100%;
+  background-image: url("https://static.wixstatic.com/media/84770f_1a6698b369e4495ea337d92f496f6fb4~mv2.jpg/v1/fill/w_1163,h_738,al_t,q_85,usm_0.66_1.00_0.01/84770f_1a6698b369e4495ea337d92f496f6fb4~mv2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  float: right;
+}
+main .buttonBanner .left {
+  width: 30%;
+  background-color: #fff1e0;
+  height: 100%;
+}
+main .buttonBanner .left h1 {
+  font-size: 65px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 150px;
+}
+main .buttonBanner .left p {
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+main .buttonBanner .left div {
+  margin: 10px auto;
+  height: 55px;
+  width: 190px;
+}
+main .buttonBanner .left div button {
+  height: 100%;
+  width: 100%;
+  background: blue;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+main .buttonBanner .left div button:hover {
+  background-color: rgba(0, 0, 255, 0.246);
+  color: blue;
+  transition: color 0.5s ease-out;
+}
